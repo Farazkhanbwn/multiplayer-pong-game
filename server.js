@@ -9,7 +9,7 @@ const sockets = require("./socket");
 const PORT = 3000;
 
 httpServer.listen(PORT, () => {
-  console.log("Server is listen on PORT", PORT);
+  console.log("Server is listen on PORT ", PORT);
 });
 
 sockets.listen(socketServer);
